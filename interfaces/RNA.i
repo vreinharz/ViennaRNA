@@ -1,5 +1,5 @@
 #ifdef SWIGPYTHON
-%module(moduleimport="from . import _RNA") RNA
+%module(moduleimport="import RNA as _RNA") RNA
 #else
 %module RNA
 #endif
